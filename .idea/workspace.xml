@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb05110d-c8d4-42e6-b9bb-4d41988482d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,25 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AbstractFactory.java">
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
               <folding>
-                <element signature="class#Car#0" />
-                <element signature="class#Toyota#0" />
-                <element signature="class#Audi#0" />
-                <element signature="class#Factory#0" />
-                <element signature="class#CarFactory#0" />
-                <element signature="method#createCar#0;class#CarFactory#0" />
-                <element signature="class#Tank#0" />
-                <element signature="class#T51#0" />
-                <element signature="class#T52#0" />
-                <element signature="class#TankFactory#0" />
-                <element signature="method#createTank#0;class#TankFactory#0" />
-                <element signature="class#AbstractFactoryes#0" />
-                <element signature="method#createFactory#0;class#AbstractFactory#1" />
+                <element signature="e#68#69#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,13 +49,13 @@
         <option value="$PROJECT_DIR$/src/IteratorApp.java" />
         <option value="$PROJECT_DIR$/src/FactoryMethodApp.java" />
         <option value="$PROJECT_DIR$/src/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/Singleton.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="870" />
-    <option name="y" value="265" />
-    <option name="width" value="980" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -75,9 +66,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,7 +93,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Serialization" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactory">
+  <component name="RunManager" selected="Application.SingeltonEx">
     <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory" />
       <module name="pattern_strategy" />
@@ -135,6 +126,11 @@
     </configuration>
     <configuration name="IteratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IteratorApp" />
+      <module name="pattern_strategy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SingeltonEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingeltonEx" />
       <module name="pattern_strategy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -189,9 +185,11 @@
       <item itemvalue="Application.IteratorApp" />
       <item itemvalue="Application.FactoryMethodApp" />
       <item itemvalue="Application.AbstractFactory" />
+      <item itemvalue="Application.SingeltonEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingeltonEx" />
         <item itemvalue="Application.AbstractFactory" />
         <item itemvalue="Application.FactoryMethodApp" />
         <item itemvalue="Application.IteratorApp" />
@@ -210,6 +208,14 @@
       <option name="presentableId" value="Default" />
       <updated>1528220923314</updated>
     </task>
+    <task id="LOCAL-00001" summary="AbstarctFactory">
+      <created>1529651684989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529651684989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -223,18 +229,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32749325" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32614556" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -247,12 +253,37 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AbstarctFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="AbstarctFactory" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="class#Car#0" />
+            <element signature="class#Toyota#0" />
+            <element signature="class#Audi#0" />
+            <element signature="class#Factory#0" />
+            <element signature="class#CarFactory#0" />
+            <element signature="method#createCar#0;class#CarFactory#0" />
+            <element signature="class#Tank#0" />
+            <element signature="class#T51#0" />
+            <element signature="class#T52#0" />
+            <element signature="class#TankFactory#0" />
+            <element signature="method#createTank#0;class#TankFactory#0" />
+            <element signature="class#AbstractFactoryes#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StrategyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
@@ -338,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="class#Car#0" />
             <element signature="class#Toyota#0" />
@@ -353,7 +384,19 @@
             <element signature="class#TankFactory#0" />
             <element signature="method#createTank#0;class#TankFactory#0" />
             <element signature="class#AbstractFactoryes#0" />
-            <element signature="method#createFactory#0;class#AbstractFactory#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
